@@ -1,0 +1,28 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Flask-specific files
+instance/
+*.db
+
+# Node and other package manager directories (if any)
+node_modules/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Python distribution directories
+*.egg-info/
+dist/
+build/
