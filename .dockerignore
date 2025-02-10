@@ -1,0 +1,24 @@
+# Ignore Python bytecode files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore Dockerfile and docker-compose.yml files (optional, usually you want to include them)
+Dockerfile
+docker-compose.yml
+
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
