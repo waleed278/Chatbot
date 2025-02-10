@@ -74,7 +74,13 @@ def is_car_related(query):
         "leaks", "new car releases", "ownership review", "user reviews", "expert review", "buying guide",
         "car tips", "maintenance hacks", "DIY car fixes", "checklist", "specifications", "model year",
         "facelift", "update", "upgrade", "variant", "auction", "bidding", "car financing", "EMI",
-        "loan options", "insurance claims", "road tax", "registration", "license plates",
+        "loan options", "insurance claims", "road tax", "registration", "license plates","Mehran",
+        "Cultus", "Alto", "Bolan", "Wagon R", "Swift", "Corolla", "Civic", "City", "Vitz", "Aqua", "Passo",
+        "Prius", "Land Cruiser", "Fortuner", "Hilux", "Elantra", "Sonata", "Sportage", "Tucson", "Revo", "Jimny", "Celerio",
+        "Mira", "Move", "Dayz", "Note", "March", "Sunny", "Baleno", "Liana", "Esteem", "Margalla", "Terios", "Sorento",
+        "Picanto", "XLi", "GLi", "Axio", "Premio", "Mark X", "Crown", "Hiace", "APV", "Ertiga", "BR-V", "HR-V",
+        "MG HS", "MG ZS", "Defender", "Pajero", "Outlander", "X70", "Tiggo 8",
+        "DFSK Glory","HRV"
     ]
     return any(keyword.lower() in query.lower() for keyword in car_keywords)
 
